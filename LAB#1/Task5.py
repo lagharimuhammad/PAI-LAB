@@ -1,12 +1,6 @@
 students = {"Ahmed": 93.0, "Ali":78.2, "Jahanzaib": 88.5}
 while True:    
-    print(""" 
-        1. Add Students
-        2. Change Marks
-        3. Remove Student
-        4. Show Topper
-        5. Display all Students
-        6. Exit""")
+    print("1. Add Students \t2. Change Marks \t3. Remove Student \t4. Show Topper \t5. Display all Students \n6. Exit")
 
     choice = int(input("Enter your action: "))
                        
@@ -53,4 +47,5 @@ while True:
         break
 
     else:
+
         print("Wrong input.")
