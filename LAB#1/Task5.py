@@ -1,4 +1,4 @@
-students = {"Ahmed": 93.0, "Ali":78.2, "Jahanzaib": 88.5}
+students = {"Ahmed": 93.0, "Ali":78.2, "Jahanzaib": 88.56}
 while True:    
     print("1. Add Students \t2. Change Marks \t3. Remove Student \t4. Show Topper \t5. Display all Students \n6. Exit")
 
@@ -49,3 +49,4 @@ while True:
     else:
 
         print("Wrong input.")
+
