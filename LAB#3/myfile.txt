@@ -1,0 +1,1 @@
+{'Pakistan': 'Islamabad', 'Afghanistan': 'Kabul', 'Iran': 'Tehran', 'China': 'Beijing', 'Russia': 'Moscow'}
