@@ -1,0 +1,3 @@
+city = khi 
+state = sindh 
+country = pakistan 
