@@ -1,0 +1,5 @@
+Name: baqar
+CNIC: 31205
+Age: 18
+Salary: 5000000.0
+Phone Number: 030030909999
