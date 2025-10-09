@@ -41,12 +41,13 @@ class SeniorManager(Manager):
     d = Developer("Kashif", 80000)
     s = SeniorManager("Baqar", 150000)
 
-    print(f"{m.name} bonus: ${m.calculateBonus():.2f}")
+    print(f"{m.name} bonus: ${m.calculateBonus()}")
     m.hire("Umair")
 
-    print(f"{d.name} bonus: ${d.calculateBonus():.2f}")
+    print(f"{d.name} bonus: ${d.calculateBonus()}")
     d.writeCode("Database System")
 
-    print(f"{s.name} bonus: ${s.calculateBonus():.2f}")
+    print(f"{s.name} bonus: ${s.calculateBonus()}")
 
     s.hire("Burhan")
+
