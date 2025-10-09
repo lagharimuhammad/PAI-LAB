@@ -1,11 +1,8 @@
-from abc import ABC, abstractmethod
-
-class Employee(ABC):
+class Employee():
     def __init__(self, name, salary):
         self.name = name
         self.salary = float(salary)
 
-    @abstractmethod
     def calculateBonus(self):
         pass
 
@@ -40,7 +37,6 @@ class SeniorManager(Manager):
         return self.salary * 0.30
 
 
-if __name__ == "__main__":
     m = Manager("Omer", 100000)
     d = Developer("Kashif", 80000)
     s = SeniorManager("Baqar", 150000)
@@ -52,4 +48,5 @@ if __name__ == "__main__":
     d.writeCode("Database System")
 
     print(f"{s.name} bonus: ${s.calculateBonus():.2f}")
+
     s.hire("Burhan")
